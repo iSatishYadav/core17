@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  core17:
+    image: core17
+    build:
+      context: ./Core17
+      dockerfile: Dockerfile
